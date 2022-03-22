@@ -279,7 +279,7 @@ class BatchHeaderRecord extends FileComponent
             ],
             self::COMPANY_DESCRIPTIVE_DATE  => [
                 self::FIELD_INCLUSION => self::FIELD_INCLUSION_OPTIONAL,
-                self::VALIDATOR       => [self::VALIDATOR_DATETIME, 'ymd'],
+                self::VALIDATOR       => [self::VALIDATOR_DATETIME, 'M d'],
                 self::LENGTH          => 6,
                 self::POSITION_START  => 64,
                 self::POSITION_END    => 69,
